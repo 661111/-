@@ -1,0 +1,21 @@
+﻿
+
+环境：
+php5.6或7.0，7.0以上不支持
+mysql5.6或5.7
+
+安装方法：
+Core\Config/config.php 数据库配置
+导入1.sql
+
+修改文件
+Public\XPlayer\js/player.js
+搜索http://lxh5068.com
+一共 2 处
+全部换成http://你播放器站域名 
+注意：如果你播放器站开启了https，就把http改成https
+
+管理员账号
+admin
+123456
+直接用户登录管理员账号即可
